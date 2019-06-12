@@ -1,0 +1,38 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "noteswithamplify-prod-20190612093001-authRole",
+            "UnauthRoleArn": "arn:aws:iam::504322822086:role/noteswithamplify-prod-20190612093001-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::504322822086:role/noteswithamplify-prod-20190612093001-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "noteswithamplify-prod-20190612093001-deployment",
+            "UnauthRoleName": "noteswithamplify-prod-20190612093001-unauthRole",
+            "StackName": "noteswithamplify-prod-20190612093001",
+            "StackId": "arn:aws:cloudformation:us-east-1:504322822086:stack/noteswithamplify-prod-20190612093001/a72501c0-8cf4-11e9-9238-1207b4ca758c"
+        }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "noteswithamplify-test-20190612093550-authRole",
+            "UnauthRoleArn": "arn:aws:iam::504322822086:role/noteswithamplify-test-20190612093550-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::504322822086:role/noteswithamplify-test-20190612093550-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "noteswithamplify-test-20190612093550-deployment",
+            "UnauthRoleName": "noteswithamplify-test-20190612093550-unauthRole",
+            "StackName": "noteswithamplify-test-20190612093550",
+            "StackId": "arn:aws:cloudformation:us-east-1:504322822086:stack/noteswithamplify-test-20190612093550/77472c20-8cf5-11e9-ae04-0e162d0e1748"
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "noteswithamplify-dev-20190612093719-authRole",
+            "UnauthRoleArn": "arn:aws:iam::504322822086:role/noteswithamplify-dev-20190612093719-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::504322822086:role/noteswithamplify-dev-20190612093719-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "noteswithamplify-dev-20190612093719-deployment",
+            "UnauthRoleName": "noteswithamplify-dev-20190612093719-unauthRole",
+            "StackName": "noteswithamplify-dev-20190612093719",
+            "StackId": "arn:aws:cloudformation:us-east-1:504322822086:stack/noteswithamplify-dev-20190612093719/abfd2140-8cf5-11e9-947a-1204ddd846a2"
+        }
+    }
+}
